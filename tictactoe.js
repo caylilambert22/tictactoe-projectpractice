@@ -1,4 +1,3 @@
-
 const container = document.querySelector('.js-container');
 container.addEventListener('click', containerAreaClicked);
 
@@ -18,7 +17,6 @@ let [board, nextMoveSymbol] = resetGame();
 function getMove() {
   return null;
 }
-
 
 function containerAreaClicked(event) {
   let dataset = event.target.dataset;
@@ -54,8 +52,6 @@ function renderRow(rowData, rowIndex) {
   rowHTML += '</tr>';
   return rowHTML;
 }
-
-
 
 
 function renderBoard() {
